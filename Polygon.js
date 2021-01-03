@@ -14,8 +14,8 @@ class Polygon{
      display(){
         var pos =this.body.position;
         var angle = this.body.angle;
-        this.body.position.x = mouseX;
-        this.body.position.y = mouseY;
+       // this.body.position.x = mouseX;
+       // this.body.position.y = mouseY;
         push();
         translate(pos.x, pos.y);
         rotate(angle);

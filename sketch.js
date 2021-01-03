@@ -32,8 +32,8 @@ function setup(){
      block10 = new Block(550,20,50,50);
      block11 = new Block(550,20,50,50);
 
-     polygon = new Polygon(300,300,15,15);
-     sling = new SlingShot(polygon.body,{x:300,y:300});
+     polygon = new Polygon(250,250,15,15);
+     sling = new SlingShot(polygon.body,{x:250,y:250});
 }
 function draw(){
     background(0);
